@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../include/module.h
+
+/workspaces/cprojec/src/main.c
+stdio.h
+-
+module.h
+/workspaces/cprojec/src/module.h
+
+/workspaces/cprojec/src/module.c
+stdio.h
+-
+module.h
+/workspaces/cprojec/src/module.h
+

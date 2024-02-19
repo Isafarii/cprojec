@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/cprojec.dir/main.c.o CMakeFiles/cprojec.dir/module.c.o  -o cprojec 
